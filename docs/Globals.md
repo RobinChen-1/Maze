@@ -1,0 +1,3 @@
+# Globals Module
+
+::: GameFrame.Globals

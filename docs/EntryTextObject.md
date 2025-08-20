@@ -1,0 +1,3 @@
+# EntryTextObject Module
+
+::: GameFrame.EntryTextObject

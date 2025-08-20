@@ -1,0 +1,3 @@
+# RoomObject Module
+
+::: GameFrame.RoomObject
