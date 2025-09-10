@@ -7,4 +7,4 @@ class GamePlay(Level):
 
         self.set_background_image("Background.png")
 
-        self.add_room_object(Character(self,25,50))
+        self.add_room_object(Character(self,280,700))
