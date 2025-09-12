@@ -27,14 +27,14 @@ class Character(RoomObject):
             self.set_image(image,64,64)
 
     def keep_in_room(self):
-        if self.y < 0:
-            self.y = 0
-        elif self.y + self.height> Globals.SCREEN_HEIGHT:
-            self.y = Globals.SCREEN_HEIGHT - self.height
-        if self.x < 0:
-            self.x = 0
-        elif self.y + self.width> Globals.SCREEN_WIDTH:
-            self.y = Globals.SCREEN_WIDTH - self.width
+        if self.y < 10:
+            self.y = 10
+        elif self.y > 700:
+            self.y = 700
+        if self.x < 275:
+            self.x = 275
+        elif self.x > 925:
+            self.x = 925
             
     def step(self):
         self.keep_in_room()

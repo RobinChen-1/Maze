@@ -5,6 +5,6 @@ class WelcomeScreen(Level):
     def __init__(self, screen, joysticks):
         Level.__init__(self, screen, joysticks)
 
-        self.set_background_image("Background.png")
+        self.set_background_image("Welcomepage_Background.png")
 
         self.add_room_object(Title(self,420,10))

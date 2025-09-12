@@ -34,7 +34,7 @@ class Globals:
     window_name = 'Maze Game'
 
     # - Set the order of the rooms - #
-    levels = ["WelcomeScreen", "GamePlay"]
+    levels = ["WelcomeScreen", "GamePlay", "EndRoom"]
 
     # - Set the starting level - #
     start_level = 0

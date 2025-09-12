@@ -1,5 +1,6 @@
 from GameFrame import Level
 from Objects.Character import Character
+from Objects.End import End
 
 class GamePlay(Level):
     def __init__(self, screen, joysticks):
@@ -8,3 +9,5 @@ class GamePlay(Level):
         self.set_background_image("Background.png")
 
         self.add_room_object(Character(self,280,700))
+
+        self.add_room_object(End(self,920,30))
