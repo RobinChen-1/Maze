@@ -6,3 +6,4 @@ from Objects.Goldcoin1 import Goldcoin1
 from Objects.Goldcoin2 import Goldcoin2
 from Objects.Goldcoin3 import Goldcoin3
 from Objects.Hud import Score
+from Objects.Hint import Hint

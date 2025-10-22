@@ -6,6 +6,7 @@ from Objects.Goldcoin1 import Goldcoin1
 from Objects.Goldcoin2 import Goldcoin2
 from Objects.Goldcoin3 import Goldcoin3
 from Objects.Hud import Score
+from Objects.Hint import Hint
 
 class GamePlay(Level):
     def __init__(self, screen, joysticks):
@@ -22,6 +23,8 @@ class GamePlay(Level):
         self.add_room_object(Goldcoin1(self, 287, 110))
         self.add_room_object(Goldcoin2(self, 710, 185))
         self.add_room_object(Goldcoin3(self, 923, 415))
+
+        self.add_room_object(Hint(self, 50, 350))
 
         self.score = Score(self, 
                            Globals.SCREEN_WIDTH/8 - 20, 20, 
