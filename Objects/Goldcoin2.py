@@ -13,3 +13,4 @@ class Goldcoin2(RoomObject):
     def handle_collision(self, other, other_type):
         if other_type == "Character":
             self.room.delete_object(self)
+            self.room.score.update_score(+100)
